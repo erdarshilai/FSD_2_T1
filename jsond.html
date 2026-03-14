@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var ob={
+            "name":"darshil","roll":18,"marks":[15,16,18],"last name":"shiyani",subjects:{s1:"FSD",s2:"COA"},passed:true,nextsem:null
+        };
+        console.log(ob.name);
+        console.log(ob.roll);
+        console.log(ob.marks[1]);
+        console.log(ob.marks);
+        console.log(ob["last name"]);
+        console.log(ob["marks"][1])
+
+        console.log(ob.name + " scored " + ob["marks"][2] + " marks in "  +ob.subjects.s1)
+        console.log(`${ob.name} scored ${ob.marks[2]} marks in ${ob.subjects.s1}`);
+
+        ob.roll=10
+        ob.marks[1]=32
+        console.log("your data is "+JSON.stringify(ob))
+        
+    </script>
+</body>
+</html>

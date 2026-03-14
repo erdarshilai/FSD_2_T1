@@ -1,0 +1,23 @@
+<!-- create a json object with date value.when a button click me  is pressed date is displayed in heading tag in IST  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="a"></h1>
+    <button onclick="f()">Click me!</button>
+    <script>
+        function f(){
+        var dob={"d":"2007-02-20"};
+        var ist=new Date(dob.d)
+    document.getElementById("a").innerText=ist;
+}
+</script>
+
+
+</body>
+</html>
