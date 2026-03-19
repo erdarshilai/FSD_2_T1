@@ -1,0 +1,7 @@
+// 1--require events as EventEmitter cl;ass
+// 2--create object of class
+// 3--create handler functioin
+// 4--add function to event (you can also remove)
+// 5--fire event
+
+
